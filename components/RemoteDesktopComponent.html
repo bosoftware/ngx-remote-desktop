@@ -1,0 +1,2030 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ngx-remote-desktop</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ngx-remote-desktop</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">ngx-remote-desktop</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-additional-pages"
+                            >
+                            <span class="fa fa-book"></span>
+                            <span>Additional documentation</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-additional-pages"
+                            >
+                                <li class="link ">
+                                    <a href="../additional-documentation/installation.html" >Installation</a>
+                                </li>
+                                <li class="link ">
+                                    <a href="../additional-documentation/usage.html" >Usage</a>
+                                </li>
+                                <li class="link ">
+                                    <a href="../additional-documentation/styling.html" >Styling</a>
+                                </li>
+                                <li class="link ">
+                                    <a href="../additional-documentation/running-the-demo.html" >Running the demo</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/NgxRemoteDesktopModule.html" >NgxRemoteDesktopModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/ConnectingMessageComponent.html" >ConnectingMessageComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/DisconnectedMessageComponent.html" >DisconnectedMessageComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/DisplayComponent.html" >DisplayComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/ErrorMessageComponent.html" >ErrorMessageComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/MessageComponent.html" >MessageComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/RemoteDesktopComponent.html"  data-type="entity-link" class="active" >RemoteDesktopComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/StatusBarComponent.html" >StatusBarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/ToolbarItemComponent.html" >ToolbarItemComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/RemoteDesktopManager.html" >RemoteDesktopManager</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">ngx-remote-desktop</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#additional-pages"
+                   >
+                                   <span class="fa fa-book"></span>
+                                   <span>Additional documentation</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="additional-pages"
+                   >
+                                       <li class="link ">
+                                           <a href="../additional-documentation/installation.html" >Installation</a>
+                                       </li>
+                                       <li class="link ">
+                                           <a href="../additional-documentation/usage.html" >Usage</a>
+                                       </li>
+                                       <li class="link ">
+                                           <a href="../additional-documentation/styling.html" >Styling</a>
+                                       </li>
+                                       <li class="link ">
+                                           <a href="../additional-documentation/running-the-demo.html" >Running the demo</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/NgxRemoteDesktopModule.html" >NgxRemoteDesktopModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/ConnectingMessageComponent.html" >ConnectingMessageComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/DisconnectedMessageComponent.html" >DisconnectedMessageComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/DisplayComponent.html" >DisplayComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/ErrorMessageComponent.html" >ErrorMessageComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/MessageComponent.html" >MessageComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/RemoteDesktopComponent.html"  data-type="entity-link" class="active" >RemoteDesktopComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/StatusBarComponent.html" >StatusBarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/ToolbarItemComponent.html" >ToolbarItemComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/RemoteDesktopManager.html" >RemoteDesktopManager</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>RemoteDesktopComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/components/remote-desktop.component.ts</code>
+</p>
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>The main component for displaying a remote desktop</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                <code><a href="https://angular.io/api/core/DoCheck" target="_blank" >DoCheck</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+            <tr>
+                <td class="col-md-3">encapsulation</td>
+                <td class="col-md-9"><code>ViewEncapsulation.None</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>ngx-remote-desktop</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">template</td>
+                <td class="col-md-9"><pre class="line-numbers"><code class="language-html">&lt;main class&#x3D;&quot;ngx-remote-desktop&quot; #container&gt;
+    &lt;!-- Toolbar items template --&gt;
+    &lt;ng-template #toolbarItems&gt;
+        &lt;ul class&#x3D;&quot;ngx-remote-desktop-toolbar-items&quot;&gt;
+            &lt;ng-content select&#x3D;&#x27;ngx-remote-desktop-toolbar-item[align&#x3D;left]&#x27;&gt;&lt;/ng-content&gt;
+        &lt;/ul&gt;
+        &lt;ul class&#x3D;&quot;ngx-remote-desktop-toolbar-items&quot;&gt;
+            &lt;ng-content select&#x3D;&#x27;ngx-remote-desktop-toolbar-item[align&#x3D;right]&#x27;&gt;&lt;/ng-content&gt;
+        &lt;/ul&gt;
+    &lt;/ng-template&gt;
+    &lt;!-- End toolbar items template --&gt;
+    &lt;!-- Normal toolbar --&gt;
+    &lt;nav class&#x3D;&quot;ngx-remote-desktop-toolbar&quot; *ngIf&#x3D;&quot;!manager.isFullScreen()&quot; &gt;
+        &lt;template [ngTemplateOutlet]&#x3D;&quot;toolbarItems&quot;&gt;&lt;/template&gt;
+    &lt;/nav&gt;
+    &lt;!-- End normal toolbar --&gt;
+    &lt;!-- Full screen toolbar --&gt;
+    &lt;nav class&#x3D;&quot;ngx-remote-desktop-toolbar ngx-remote-desktop-toolbar-fullscreen&quot; *ngIf&#x3D;&quot;manager.isFullScreen()&quot;
+        [@toolbarAnimation]&#x3D;&quot;toolbarVisible&quot; #toolbar&gt;
+        &lt;template [ngTemplateOutlet]&#x3D;&quot;toolbarItems&quot;&gt;&lt;/template&gt;
+    &lt;/nav&gt;
+    &lt;!-- End full screen toolbar --&gt;
+    &lt;section class&#x3D;&quot;ngx-remote-desktop-container&quot;&gt;
+        &lt;!-- Connecting message --&gt;
+        &lt;div *ngIf&#x3D;&quot;isState(states.CONNECTING)&quot;&gt;
+            &lt;div class&#x3D;&quot;ngx-remote-desktop-message&quot; *ngIf&#x3D;&quot;connectingMessage&quot; &gt;
+                &lt;ng-content select&#x3D;&quot;ngx-remote-desktop-connecting-message&quot;&gt;&lt;/ng-content&gt;
+            &lt;/div&gt;
+
+            &lt;ngx-remote-desktop-message  *ngIf&#x3D;&quot;!connectingMessage&quot;
+                title&#x3D;&quot;Connecting to remote desktop&quot;
+                message&#x3D;&quot;Attempting to connect to the remote desktop. Waiting for response...&quot;
+                type&#x3D;&quot;success&quot;&gt;
+            &lt;/ngx-remote-desktop-message&gt;
+        &lt;/div&gt;
+        &lt;!-- End connecting message --&gt;
+
+        &lt;!-- Disconnected message --&gt;
+        &lt;div *ngIf&#x3D;&quot;isState(states.DISCONNECTED)&quot;&gt;
+            &lt;div class&#x3D;&quot;ngx-remote-desktop-message&quot; *ngIf&#x3D;&quot;disconnectedMessage&quot;&gt;
+                &lt;ng-content select&#x3D;&quot;ngx-remote-desktop-disconnected-message&quot;&gt;&lt;/ng-content&gt;
+            &lt;/div&gt;
+            &lt;ngx-remote-desktop-message *ngIf&#x3D;&quot;!disconnectedMessage&quot;
+                title&#x3D;&quot;Disconnected&quot;
+                message&#x3D;&quot;The connection to the remote desktop terminated successfully&quot;
+                type&#x3D;&quot;error&quot;&gt;
+                &lt;button (click)&#x3D;&quot;handleConnect()&quot; class&#x3D;&quot;ngx-remote-desktop-message-body-btn&quot;&gt;
+                    Reconnect
+                &lt;/button&gt;
+            &lt;/ngx-remote-desktop-message&gt;
+        &lt;/div&gt;
+        &lt;!-- End disconnected message --&gt;
+
+        &lt;!-- Error message --&gt;
+        &lt;div *ngIf&#x3D;&quot;isState(states.ERROR)&quot;&gt;
+
+            &lt;div class&#x3D;&quot;ngx-remote-desktop-message&quot; *ngIf&#x3D;&quot;errorMessage&quot;&gt;
+                &lt;ng-content select&#x3D;&quot;ngx-remote-desktop-error-message&quot;&gt;&lt;/ng-content&gt;
+            &lt;/div&gt;
+
+            &lt;ngx-remote-desktop-message *ngIf&#x3D;&quot;!errorMessage&quot;
+                title&#x3D;&quot;Connection error&quot;
+                message&#x3D;&quot;The remote desktop server is currently unreachable.&quot;
+                type&#x3D;&quot;error&quot;&gt;
+                &lt;button (click)&#x3D;&quot;handleConnect()&quot; class&#x3D;&quot;ngx-remote-desktop-message-body-btn&quot;&gt;
+                    Connect
+                &lt;/button&gt;
+            &lt;/ngx-remote-desktop-message&gt;
+        &lt;/div&gt;
+        &lt;!-- End error message --&gt;
+
+        &lt;!-- Display --&gt;
+        &lt;ngx-remote-desktop-display *ngIf&#x3D;&quot;isState(states.CONNECTED)&quot;
+            [manager]&#x3D;&quot;manager&quot;
+            (onMouseMove)&#x3D;&quot;handleDisplayMouseMove($event)&quot;&gt;
+        &lt;/ngx-remote-desktop-display&gt;
+        &lt;!-- End display --&gt;
+    &lt;/section&gt;
+    &lt;section [class.ngx-remote-desktop-status-bar-hidden]&#x3D;&quot;manager.isFullScreen()&quot;&gt;
+        &lt;ng-content select&#x3D;&quot;ngx-remote-desktop-status-bar&quot;&gt;&lt;/ng-content&gt;
+    &lt;/section&gt;
+&lt;/main&gt;
+</code></pre></td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="index">Index</h3>
+        <table class="table table-sm table-bordered index-table">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#connectingMessage">connectingMessage</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#container">container</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#disconnectedMessage">disconnectedMessage</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#errorMessage">errorMessage</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#state">state</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#states">states</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#toolbar">toolbar</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#toolbarVisible">toolbarVisible</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#enterFullScreen">enterFullScreen</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#exitFullScreen">exitFullScreen</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#handleConnect">handleConnect</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#handleDisplayMouseMove">handleDisplayMouseMove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#handleFullScreen">handleFullScreen</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#handleState">handleState</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#handleToolbar">handleToolbar</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#isState">isState</a>
+                            </li>
+                            <li>
+                                <a href="#ngDoCheck">ngDoCheck</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#setState">setState</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#showOrHideToolbar">showOrHideToolbar</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#manager">manager</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <section>
+        <h3 id="inputs">Inputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="manager"></a>
+                            <code>manager</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>Client that manages the connection to the remote desktop</p>
+</div>
+                              <p>
+                                <em>Type:</em>    <code><a href="../classes/RemoteDesktopManager.html" target="_self" >RemoteDesktopManager</a></code>
+
+                              </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="127" class="link-to-prism">src/components/remote-desktop.component.ts:127</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+    </section>
+
+
+
+
+    <section>
+        
+            <h3 id="methods">
+                Methods
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="enterFullScreen"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                enterFullScreen
+                                </b>
+                                <a href="#enterFullScreen"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>enterFullScreen()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="242" class="link-to-prism">src/components/remote-desktop.component.ts:242</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Enter full screen mode and auto hide the toolbar</p>
+    </div>
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="exitFullScreen"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                exitFullScreen
+                                </b>
+                                <a href="#exitFullScreen"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>exitFullScreen()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="230" class="link-to-prism">src/components/remote-desktop.component.ts:230</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Exit full screen and show the toolbar</p>
+    </div>
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="handleConnect"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                handleConnect
+                                </b>
+                                <a href="#handleConnect"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>handleConnect()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="190" class="link-to-prism">src/components/remote-desktop.component.ts:190</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Connect to the remote desktop</p>
+    </div>
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="handleDisplayMouseMove"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                handleDisplayMouseMove
+                                </b>
+                                <a href="#handleDisplayMouseMove"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>handleDisplayMouseMove($event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="275" class="link-to-prism">src/components/remote-desktop.component.ts:275</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Handle the display mouse movement</p>
+    </div>
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>$event</td>
+                                                      <td>
+                                                              <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="handleFullScreen"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                handleFullScreen
+                                </b>
+                                <a href="#handleFullScreen"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>handleFullScreen()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="259" class="link-to-prism">src/components/remote-desktop.component.ts:259</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Go in and out of full screen</p>
+    </div>
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="handleState"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                handleState
+                                </b>
+                                <a href="#handleState"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>handleState(newState: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="206" class="link-to-prism">src/components/remote-desktop.component.ts:206</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Receive the state from the desktop client and update this components state</p>
+    </div>
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>newState</td>
+                                                      <td>
+                                                              <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td><ul>
+    <li>state received from the guacamole client</li>
+    </ul>
+    </td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="handleToolbar"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                handleToolbar
+                                </b>
+                                <a href="#handleToolbar"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>handleToolbar()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="267" class="link-to-prism">src/components/remote-desktop.component.ts:267</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="isState"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                isState
+                                </b>
+                                <a href="#isState"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>isState(newState: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="198" class="link-to-prism">src/components/remote-desktop.component.ts:198</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Check if the given state equals the current component state</p>
+    </div>
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>newState</td>
+                                                      <td>
+                                                              <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="ngDoCheck"></a>
+                            <span class="name">
+                                <b>
+                                ngDoCheck
+                                </b>
+                                <a href="#ngDoCheck"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>ngDoCheck()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="175" class="link-to-prism">src/components/remote-desktop.component.ts:175</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Check if the full screen or focused property has changed</p>
+    </div>
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="ngOnInit"></a>
+                            <span class="name">
+                                <b>
+                                ngOnInit
+                                </b>
+                                <a href="#ngOnInit"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>ngOnInit()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="168" class="link-to-prism">src/components/remote-desktop.component.ts:168</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Subscribe to the connection state when the component is initialised</p>
+    </div>
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="setState"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                setState
+                                </b>
+                                <a href="#setState"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>setState(newState: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="183" class="link-to-prism">src/components/remote-desktop.component.ts:183</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Set the component state to the new guacamole state</p>
+    </div>
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>newState</td>
+                                                      <td>
+                                                              <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="showOrHideToolbar"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                showOrHideToolbar
+                                </b>
+                                <a href="#showOrHideToolbar"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>showOrHideToolbar(x: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="286" class="link-to-prism">src/components/remote-desktop.component.ts:286</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Show or hide the toolbar</p>
+    </div>
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>x</td>
+                                                      <td>
+                                                              <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td><ul>
+    <li>Mouse x coordinate respective to the container</li>
+    </ul>
+    </td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="inputs">
+                Properties
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="connectingMessage"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                connectingMessage
+                                </b>
+                                <a href="#connectingMessage"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>connectingMessage:     <code><a href="../components/MessageComponent.html" target="_self" >ConnectingMessageComponent</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="../components/MessageComponent.html" target="_self" >ConnectingMessageComponent</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ContentChild</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="130" class="link-to-prism">src/components/remote-desktop.component.ts:130</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="container"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                container
+                                </b>
+                                <a href="#container"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>container:     <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ViewChild</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="139" class="link-to-prism">src/components/remote-desktop.component.ts:139</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="disconnectedMessage"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                disconnectedMessage
+                                </b>
+                                <a href="#disconnectedMessage"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>disconnectedMessage:     <code><a href="../components/MessageComponent.html" target="_self" >DisconnectedMessageComponent</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="../components/MessageComponent.html" target="_self" >DisconnectedMessageComponent</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ContentChild</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="133" class="link-to-prism">src/components/remote-desktop.component.ts:133</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="errorMessage"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                errorMessage
+                                </b>
+                                <a href="#errorMessage"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>errorMessage:     <code><a href="../components/MessageComponent.html" target="_self" >ErrorMessageComponent</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="../components/MessageComponent.html" target="_self" >ErrorMessageComponent</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ContentChild</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="136" class="link-to-prism">src/components/remote-desktop.component.ts:136</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="state"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                state
+                                </b>
+                                <a href="#state"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>state:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+    
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="152" class="link-to-prism">src/components/remote-desktop.component.ts:152</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <div class="io-description"><p>Manage the component state</p>
+    </div>
+                        </td>
+                    </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="states"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                states
+                                </b>
+                                <a href="#states"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>states:     <code></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>{
+            CONNECTING: &#x27;CONNECTING&#x27;,
+            CONNECTED: &#x27;CONNECTED&#x27;,
+            DISCONNECTED: &#x27;DISCONNECTED&#x27;,
+            ERROR: &#x27;ERROR&#x27;
+        }</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="158" class="link-to-prism">src/components/remote-desktop.component.ts:158</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <div class="io-description"><p>Guacamole has more states than the list below however for the component we only interested
+    in managing four states.</p>
+    </div>
+                        </td>
+                    </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="toolbar"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                toolbar
+                                </b>
+                                <a href="#toolbar"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>toolbar:     <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ViewChild</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="142" class="link-to-prism">src/components/remote-desktop.component.ts:142</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="toolbarVisible"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                toolbarVisible
+                                </b>
+                                <a href="#toolbarVisible"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>toolbarVisible:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>true</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="147" class="link-to-prism">src/components/remote-desktop.component.ts:147</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <div class="io-description"><p>Hide or show the toolbar</p>
+    </div>
+                        </td>
+                    </tr>
+    
+                </tbody>
+            </table>
+    </section>
+
+</div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import {
+    Component,
+    OnInit,
+    Input,
+    ViewChild,
+    ElementRef,
+    ViewEncapsulation,
+    HostListener,
+    OnChanges,
+    forwardRef,
+    ContentChild,
+    DoCheck
+} from &#x27;@angular/core&#x27;;
+
+import { RemoteDesktopManager } from &#x27;../services&#x27;;
+import { Observable } from &#x27;rxjs&#x27;;
+import * as screenfull from &#x27;screenfull&#x27;;
+import { trigger, state, transition, animate, style } from &#x27;@angular/animations&#x27;;
+import { ConnectingMessageComponent } from &#x27;./messages/connecting-message.component&#x27;;
+import { DisconnectedMessageComponent } from &#x27;./messages/disconnected-message.component&#x27;;
+import { ErrorMessageComponent } from &#x27;./messages/error-message.component&#x27;;
+
+/**
+ * The main component for displaying a remote desktop
+ */
+@Component({
+    selector: &#x27;ngx-remote-desktop&#x27;,
+    template: &#x60;
+        &lt;main class&#x3D;&quot;ngx-remote-desktop&quot; #container&gt;
+            &lt;!-- Toolbar items template --&gt;
+            &lt;ng-template #toolbarItems&gt;
+                &lt;ul class&#x3D;&quot;ngx-remote-desktop-toolbar-items&quot;&gt;
+                    &lt;ng-content select&#x3D;&#x27;ngx-remote-desktop-toolbar-item[align&#x3D;left]&#x27;&gt;&lt;/ng-content&gt;
+                &lt;/ul&gt;
+                &lt;ul class&#x3D;&quot;ngx-remote-desktop-toolbar-items&quot;&gt;
+                    &lt;ng-content select&#x3D;&#x27;ngx-remote-desktop-toolbar-item[align&#x3D;right]&#x27;&gt;&lt;/ng-content&gt;
+                &lt;/ul&gt;
+            &lt;/ng-template&gt;
+            &lt;!-- End toolbar items template --&gt;
+            &lt;!-- Normal toolbar --&gt;
+            &lt;nav class&#x3D;&quot;ngx-remote-desktop-toolbar&quot; *ngIf&#x3D;&quot;!manager.isFullScreen()&quot; &gt;
+                &lt;template [ngTemplateOutlet]&#x3D;&quot;toolbarItems&quot;&gt;&lt;/template&gt;
+            &lt;/nav&gt;
+            &lt;!-- End normal toolbar --&gt;
+            &lt;!-- Full screen toolbar --&gt;
+            &lt;nav class&#x3D;&quot;ngx-remote-desktop-toolbar ngx-remote-desktop-toolbar-fullscreen&quot; *ngIf&#x3D;&quot;manager.isFullScreen()&quot;
+                [@toolbarAnimation]&#x3D;&quot;toolbarVisible&quot; #toolbar&gt;
+                &lt;template [ngTemplateOutlet]&#x3D;&quot;toolbarItems&quot;&gt;&lt;/template&gt;
+            &lt;/nav&gt;
+            &lt;!-- End full screen toolbar --&gt;
+            &lt;section class&#x3D;&quot;ngx-remote-desktop-container&quot;&gt;
+                &lt;!-- Connecting message --&gt;
+                &lt;div *ngIf&#x3D;&quot;isState(states.CONNECTING)&quot;&gt;
+                    &lt;div class&#x3D;&quot;ngx-remote-desktop-message&quot; *ngIf&#x3D;&quot;connectingMessage&quot; &gt;
+                        &lt;ng-content select&#x3D;&quot;ngx-remote-desktop-connecting-message&quot;&gt;&lt;/ng-content&gt;
+                    &lt;/div&gt;
+        
+                    &lt;ngx-remote-desktop-message  *ngIf&#x3D;&quot;!connectingMessage&quot;
+                        title&#x3D;&quot;Connecting to remote desktop&quot;
+                        message&#x3D;&quot;Attempting to connect to the remote desktop. Waiting for response...&quot;
+                        type&#x3D;&quot;success&quot;&gt;
+                    &lt;/ngx-remote-desktop-message&gt;
+                &lt;/div&gt;
+                &lt;!-- End connecting message --&gt;
+
+                &lt;!-- Disconnected message --&gt;
+                &lt;div *ngIf&#x3D;&quot;isState(states.DISCONNECTED)&quot;&gt;
+                    &lt;div class&#x3D;&quot;ngx-remote-desktop-message&quot; *ngIf&#x3D;&quot;disconnectedMessage&quot;&gt;
+                        &lt;ng-content select&#x3D;&quot;ngx-remote-desktop-disconnected-message&quot;&gt;&lt;/ng-content&gt;
+                    &lt;/div&gt;
+                    &lt;ngx-remote-desktop-message *ngIf&#x3D;&quot;!disconnectedMessage&quot;
+                        title&#x3D;&quot;Disconnected&quot;
+                        message&#x3D;&quot;The connection to the remote desktop terminated successfully&quot;
+                        type&#x3D;&quot;error&quot;&gt;
+                        &lt;button (click)&#x3D;&quot;handleConnect()&quot; class&#x3D;&quot;ngx-remote-desktop-message-body-btn&quot;&gt;
+                            Reconnect
+                        &lt;/button&gt;
+                    &lt;/ngx-remote-desktop-message&gt;
+                &lt;/div&gt;
+                &lt;!-- End disconnected message --&gt;
+                
+                &lt;!-- Error message --&gt;
+                &lt;div *ngIf&#x3D;&quot;isState(states.ERROR)&quot;&gt;
+
+                    &lt;div class&#x3D;&quot;ngx-remote-desktop-message&quot; *ngIf&#x3D;&quot;errorMessage&quot;&gt;
+                        &lt;ng-content select&#x3D;&quot;ngx-remote-desktop-error-message&quot;&gt;&lt;/ng-content&gt;
+                    &lt;/div&gt;
+
+                    &lt;ngx-remote-desktop-message *ngIf&#x3D;&quot;!errorMessage&quot;
+                        title&#x3D;&quot;Connection error&quot;
+                        message&#x3D;&quot;The remote desktop server is currently unreachable.&quot;
+                        type&#x3D;&quot;error&quot;&gt;
+                        &lt;button (click)&#x3D;&quot;handleConnect()&quot; class&#x3D;&quot;ngx-remote-desktop-message-body-btn&quot;&gt;
+                            Connect
+                        &lt;/button&gt;
+                    &lt;/ngx-remote-desktop-message&gt;
+                &lt;/div&gt;
+                &lt;!-- End error message --&gt;
+                
+                &lt;!-- Display --&gt;
+                &lt;ngx-remote-desktop-display *ngIf&#x3D;&quot;isState(states.CONNECTED)&quot; 
+                    [manager]&#x3D;&quot;manager&quot;
+                    (onMouseMove)&#x3D;&quot;handleDisplayMouseMove($event)&quot;&gt;
+                &lt;/ngx-remote-desktop-display&gt;                
+                &lt;!-- End display --&gt;
+            &lt;/section&gt;
+            &lt;section [class.ngx-remote-desktop-status-bar-hidden]&#x3D;&quot;manager.isFullScreen()&quot;&gt;
+                &lt;ng-content select&#x3D;&quot;ngx-remote-desktop-status-bar&quot;&gt;&lt;/ng-content&gt;
+            &lt;/section&gt;
+        &lt;/main&gt;
+    &#x60;,
+    encapsulation: ViewEncapsulation.None,
+    animations: [
+        trigger(&#x27;toolbarAnimation&#x27;, [
+            state(&#x27;1&#x27;, style({ transform: &#x27;translateX(0%)&#x27; })),
+            state(&#x27;0&#x27;, style({ transform: &#x27;translateX(-100%)&#x27; })),
+            transition(&#x27;1 &#x3D;&gt; 0&#x27;, animate(&#x27;200ms 200ms ease-out&#x27;)),
+            transition(&#x27;0 &#x3D;&gt; 1&#x27;, animate(&#x27;225ms ease-in&#x27;))
+        ])
+    ],
+})
+export class RemoteDesktopComponent implements OnInit, DoCheck {
+    /**
+     * Client that manages the connection to the remote desktop
+     */
+    @Input()
+    private manager: RemoteDesktopManager;
+
+    @ContentChild(ConnectingMessageComponent)
+    private connectingMessage: ConnectingMessageComponent;
+
+    @ContentChild(DisconnectedMessageComponent)
+    private disconnectedMessage: DisconnectedMessageComponent;
+
+    @ContentChild(ErrorMessageComponent)
+    private errorMessage: ErrorMessageComponent;
+
+    @ViewChild(&#x27;container&#x27;)
+    private container: ElementRef;
+
+    @ViewChild(&#x27;toolbar&#x27;)
+    private toolbar: ElementRef;
+
+    /**
+     * Hide or show the toolbar
+     */
+    private toolbarVisible: boolean &#x3D; true;
+
+    /**
+     * Manage the component state
+     */
+    private state: string;
+
+    /**
+     * Guacamole has more states than the list below however for the component we only interested
+     * in managing four states.
+     */
+    private states &#x3D; {
+        CONNECTING: &#x27;CONNECTING&#x27;,
+        CONNECTED: &#x27;CONNECTED&#x27;,
+        DISCONNECTED: &#x27;DISCONNECTED&#x27;,
+        ERROR: &#x27;ERROR&#x27;
+    };
+
+    /**
+     * Subscribe to the connection state when the component is initialised
+     */
+    ngOnInit(): void {
+        this.manager.onStateChange.subscribe(this.handleState.bind(this));
+    }
+
+    /**
+     * Check if the full screen or focused property has changed
+     */
+    ngDoCheck(): void {
+        this.handleFullScreen();
+    }
+
+    /**
+     * Set the component state to the new guacamole state
+     * @param newState
+     */
+    private setState(newState: string): void {
+        this.state &#x3D; newState;
+    }
+
+    /**
+     * Connect to the remote desktop
+     */
+    private handleConnect(): void {
+        this.manager.connect();
+    }
+
+    /**
+     * Check if the given state equals the current component state
+     * @param newState 
+     */
+    private isState(newState: string) {
+        return this.state &#x3D;&#x3D;&#x3D; newState;
+    }
+
+    /**
+     * Receive the state from the desktop client and update this components state
+     * @param newState - state received from the guacamole client
+     */
+    private handleState(newState: string) {
+        switch (newState) {
+            case RemoteDesktopManager.STATE.CONNECTED:
+                this.setState(this.states.CONNECTED);
+                break;
+            case RemoteDesktopManager.STATE.DISCONNECTED:
+                this.exitFullScreen();
+                this.setState(this.states.DISCONNECTED);
+                break;
+            case RemoteDesktopManager.STATE.CONNECTING:
+            case RemoteDesktopManager.STATE.WAITING:
+                this.setState(this.states.CONNECTING);
+                break;
+            case RemoteDesktopManager.STATE.CLIENT_ERROR:
+            case RemoteDesktopManager.STATE.TUNNEL_ERROR:
+                this.exitFullScreen();
+                this.setState(this.states.ERROR);
+                break;
+        }
+    }
+
+    /**
+     * Exit full screen and show the toolbar
+     */
+    private exitFullScreen(): void {
+        if (!screenfull.isFullscreen) {
+            return;
+        }
+        this.manager.setFullScreen(false);
+        const containerElement &#x3D; this.container.nativeElement;
+        screenfull.exit(containerElement);
+    }
+
+    /**
+     * Enter full screen mode and auto hide the toolbar
+     */
+    private enterFullScreen(): void {
+        if (screenfull.isFullscreen) {
+            return;
+        }
+        const containerElement &#x3D; this.container.nativeElement;
+        screenfull.request(containerElement);
+        screenfull.on(&#x27;change&#x27;, (change: any) &#x3D;&gt; {
+            if (!screenfull.isFullscreen) {
+                this.manager.setFullScreen(false);
+            }
+            this.handleToolbar();
+        });
+    }
+
+    /**
+     * Go in and out of full screen
+     */
+    private handleFullScreen(): void {
+        if (this.manager.isFullScreen()) {
+            this.enterFullScreen();
+        } else {
+            this.exitFullScreen();
+        }
+    }
+
+    private handleToolbar(): void {
+        this.toolbarVisible &#x3D; (this.manager.isFullScreen()) ? false : true;
+    }
+
+    /**
+     * Handle the display mouse movement
+     * @param event Mouse event
+     */
+    private handleDisplayMouseMove($event: any): void {
+        if (!this.manager.isFullScreen()) {
+            return;
+        }
+        this.showOrHideToolbar($event.x);
+    }
+
+    /**
+     * Show or hide the toolbar
+     * @param x - Mouse x coordinate respective to the container
+     */
+    private showOrHideToolbar(x: number): void {
+        const toolbarWidth &#x3D; this.toolbar.nativeElement.clientWidth;
+        if (x &gt;&#x3D; -1 &amp;&amp; x &lt;&#x3D; 0) {
+            this.toolbarVisible &#x3D; true;
+        }
+        if (x &gt;&#x3D; toolbarWidth) {
+            this.toolbarVisible &#x3D; false;
+        }
+    }
+}
+</code></pre>
+    </div>
+
+
+    <div class="tab-pane fade" id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><main class="ngx-remote-desktop" #container>    <!-- Toolbar items template -->    <ng-template #toolbarItems>        <ul class="ngx-remote-desktop-toolbar-items">            <ng-content select=\'ngx-remote-desktop-toolbar-item[align=left]\'></ng-content>        </ul>        <ul class="ngx-remote-desktop-toolbar-items">            <ng-content select=\'ngx-remote-desktop-toolbar-item[align=right]\'></ng-content>        </ul>    </ng-template>    <!-- End toolbar items template -->    <!-- Normal toolbar -->    <nav class="ngx-remote-desktop-toolbar" *ngIf="!manager.isFullScreen()" >        <template [ngTemplateOutlet]="toolbarItems"></template>    </nav>    <!-- End normal toolbar -->    <!-- Full screen toolbar -->    <nav class="ngx-remote-desktop-toolbar ngx-remote-desktop-toolbar-fullscreen" *ngIf="manager.isFullScreen()"        [@toolbarAnimation]="toolbarVisible" #toolbar>        <template [ngTemplateOutlet]="toolbarItems"></template>    </nav>    <!-- End full screen toolbar -->    <section class="ngx-remote-desktop-container">        <!-- Connecting message -->        <div *ngIf="isState(states.CONNECTING)">            <div class="ngx-remote-desktop-message" *ngIf="connectingMessage" >                <ng-content select="ngx-remote-desktop-connecting-message"></ng-content>            </div>            <ngx-remote-desktop-message  *ngIf="!connectingMessage"                title="Connecting to remote desktop"                message="Attempting to connect to the remote desktop. Waiting for response..."                type="success">            </ngx-remote-desktop-message>        </div>        <!-- End connecting message -->        <!-- Disconnected message -->        <div *ngIf="isState(states.DISCONNECTED)">            <div class="ngx-remote-desktop-message" *ngIf="disconnectedMessage">                <ng-content select="ngx-remote-desktop-disconnected-message"></ng-content>            </div>            <ngx-remote-desktop-message *ngIf="!disconnectedMessage"                title="Disconnected"                message="The connection to the remote desktop terminated successfully"                type="error">                <button (click)="handleConnect()" class="ngx-remote-desktop-message-body-btn">                    Reconnect                </button>            </ngx-remote-desktop-message>        </div>        <!-- End disconnected message -->        <!-- Error message -->        <div *ngIf="isState(states.ERROR)">            <div class="ngx-remote-desktop-message" *ngIf="errorMessage">                <ng-content select="ngx-remote-desktop-error-message"></ng-content>            </div>            <ngx-remote-desktop-message *ngIf="!errorMessage"                title="Connection error"                message="The remote desktop server is currently unreachable."                type="error">                <button (click)="handleConnect()" class="ngx-remote-desktop-message-body-btn">                    Connect                </button>            </ngx-remote-desktop-message>        </div>        <!-- End error message -->        <!-- Display -->        <ngx-remote-desktop-display *ngIf="isState(states.CONNECTED)"            [manager]="manager"            (onMouseMove)="handleDisplayMouseMove($event)">        </ngx-remote-desktop-display>        <!-- End display -->    </section>    <section [class.ngx-remote-desktop-status-bar-hidden]="manager.isFullScreen()">        <ng-content select="ngx-remote-desktop-status-bar"></ng-content>    </section></main></div>'
+    var COMPONENTS = [{'name': 'ConnectingMessageComponent', 'selector': 'ngx-remote-desktop-connecting-message'},{'name': 'DisconnectedMessageComponent', 'selector': 'ngx-remote-desktop-disconnected-message'},{'name': 'DisplayComponent', 'selector': 'ngx-remote-desktop-display'},{'name': 'ErrorMessageComponent', 'selector': 'ngx-remote-desktop-error-message'},{'name': 'MessageComponent', 'selector': 'ngx-remote-desktop-message'},{'name': 'RemoteDesktopComponent', 'selector': 'ngx-remote-desktop'},{'name': 'StatusBarComponent', 'selector': 'ngx-remote-desktop-status-bar'},{'name': 'ToolbarItemComponent', 'selector': 'ngx-remote-desktop-toolbar-item'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'RemoteDesktopComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>
